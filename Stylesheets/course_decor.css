@@ -1,0 +1,53 @@
+/* body{
+    min-width: 490px;
+    max-width: 100%;
+} */
+.act{
+    border:none;
+    outline:none;
+}
+.loc{
+    size:20px;
+    display: inline-block;
+    
+}
+.container{
+    position:fixed;
+}
+.add_cors{
+    background-color:#0fe83bb3;
+    border-radius: 10px;
+    position:relative;
+    bottom: 30px;
+    left:630px;    
+}
+.form-floating>input[type="text"]{
+    height:30px;
+    margin-top:-10px;
+}
+.form-floating>input[type="file"]{
+    margin-top:-10px;
+}
+.txt{
+    background-color:white;
+}
+@media only screen and (max-width: 768px){
+    .add_cors{
+        position:relative;
+        left:-110px;
+        bottom:35px;
+    }
+}
+.download-button{
+   float:right;
+
+    /* border:1px solid black; */
+    position:relative;
+    right:90px;
+    bottom:18px;
+    border-radius: 12px;
+}
+.fa-file-download{
+    color:white;
+}
+

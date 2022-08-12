@@ -1,0 +1,152 @@
+/* Links for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@200&family=Montserrat+Alternates:ital,wght@0,300;1,400&display=swap');
+/* Links for google fonts close*/
+
+
+/* For navigation Logo */
+.navbar-brand img{
+    height:3rem;
+}
+/* Decorating top navigation bar */
+.navbar{
+    font-size:1.15rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    box-shadow:0 .5rem .5rem #00000025;
+    z-index: 1;
+}
+/* Gap between list items. */
+.nav-item{
+    padding:0.5rem;
+}
+/* Animation navgation links. */
+.nav-link{
+    color:#5b5555 !important;
+    transition: all 1s ;
+}
+.nav-link.active, .nav-link:hover{
+    color:#4981b3 !important;
+}
+/* ----------Hero section Style */
+#hero{
+    width:100%;
+    height:80vh;
+    background:url(../Img/home-bg.jpg) top center;
+    background-size:cover;
+    position:relative;
+}
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+#hero .container {
+    padding-top: 50px;
+  }
+#hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  #hero h2 {
+    color: #eee;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+#hero .btn-get-started{
+    font-family: 'Lato', 'sitka small';
+    font-weight: 500;
+    font-size:15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display:inline-block;
+    padding:10px 35px;
+    margin-top:25px;
+    color:#fff;
+    border:2px solid #fff;
+    border-radius: 50px;
+    transition:0.5s ease;
+
+}
+#hero .btn-get-started:hover{
+    background:#4981b3;
+    border:2px solid #4981b3;
+}
+@media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+@media (max-width: 768px) {
+   #hero {
+      height: 100vh;
+    }
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h2{
+        font-weight: 400;
+    }
+    #hero .btn-get-started:hover{
+        background:#4981b3;
+        border:2px solid #4981b3;
+    }
+}
+
+/* Courses Decoration */
+.courses .course-item {
+    border-radius: 5px;
+    border: 1px solid #eef0ef;
+  }
+  .courses .course-content {
+    padding: 15px;
+  }
+
+  /* course detail */
+  .courses .course-content h3 {
+    font-weight: 700;
+    font-family: lato;
+    font-size: 20px;
+  }
+  .courses .course-content h3 a {
+    text-decoration:none;
+    color: #37423b;
+    transition: 0.3s;
+  }
+  .courses .course-content h3 a:hover {
+    color: #4981b3;
+  }
+  .courses .course-content h4 {
+    font-size: 16px;
+    background: #5fcf80;
+    padding: 7px 14px;
+    color: #fff;
+    margin: 0;
+  }
+  .courses .course-content #hackid{
+    margin-top:50px;
+  }
+  .courses .course-content #c-price{
+      margin-top:50px;
+  }
+  .courses .course-content .price {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #37423b;
+  }
+  .section-title{
+      padding-bottom:30px;
+  }
+  #footer{
+    width:100% !important;
+    background-color: #eaf2ed;
+  }

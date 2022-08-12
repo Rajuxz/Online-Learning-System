@@ -1,0 +1,14 @@
+.main-div{
+    box-shadow:4px 4px 10px rgba(201, 133, 228, 0.429) !important;
+    height:530px;
+    width:590px;
+    padding:10px;
+    border-radius: 10px;
+}
+.form-control{
+    width:500px !important;
+}
+.s-button{
+    position:relative;
+    left:350px;
+}

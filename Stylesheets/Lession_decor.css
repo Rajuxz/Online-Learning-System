@@ -1,0 +1,26 @@
+#in-id{
+    width:130px !important;
+  }
+  .fa-plus{
+    color:white;
+  }
+  .btn-plus{
+    background-color:blue;
+    border-radius: 15px;
+  }
+  .button-group{
+    position:relative;
+    left:700px;
+  }
+  @media (max-width: 768px){
+    .button-group{
+      position:relative;
+      left:450px;
+    }
+  }
+  @media only screen and (max-width: 500px){
+    .button-group{
+      position:relative;
+      left:240px;
+    }
+  }

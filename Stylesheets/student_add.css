@@ -1,0 +1,9 @@
+.main-div{
+    height:500px;
+    padding-left:10px;
+    box-shadow:10px 10px 15px grey;
+    border-radius:4px;
+}
+input{
+    width:400px !important;
+}

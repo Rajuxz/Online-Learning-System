@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to right, #915dd9, #9f1addbc);
+  }
+  .myhead{
+      font-family: 'sitka text';
+  }
+  .card-img-left {
+    width: 45%;
+    background: scroll center url('../Img/Side.jpg');
+    background-size: cover;
+  }
+  
+  .btn-login{
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+.link{
+    text-decoration: none;
+    font-size:18px !important;
+}
+.error-msg{
+  color:red;
+  font-size:100px;
+}
+/* Line before and after OR */
+.baf{
+    font-family: sans-serif;
+    color: #07648fa6;
+    text-align: center;
+    font-size: 20px;
+    max-width: 400px;
+    position: relative;
+  }
+.baf:before{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: #12011264;
+  left: 75px;
+  top: 50%;
+  position: absolute;
+
+}
+.baf::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background:#12011264;
+    left:210px;
+    top: 50%;
+    position: absolute;
+  }

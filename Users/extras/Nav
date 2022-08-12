@@ -1,0 +1,6 @@
+<nav class="navbar navbar-expand-md navbar-dark bd-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top " id="sidebar">
+          <div class="text-center p-3">
+            <!-- <img src="img/user.png" alt="profile picture" class="img-fluid rounded-circle my-1 p-1 d-none d-md-block shadow"/> -->
+		  <span class="m-2"></span>
+		  
+	  </nav>

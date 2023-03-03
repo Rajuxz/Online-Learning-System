@@ -33,4 +33,4 @@ and more. This project is designed to fulfill a requirement of BCA, 4th semester
 ## For students
 - Create account first, after completion of creation system will redirect to the login page.
 - Insert credentials and login to the system.
-- Goto courses, you can see courses added by admin along with videos.
+- Goto courses, you can see courses added by admin along with videos..
